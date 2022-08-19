@@ -7,8 +7,9 @@ function countdownTimer() {
   let now = new Date().getTime();
   let deadline = new Date("Sep 02, 2022 00:00:00").getTime();
 
+  //   reset time if count down to 0
   deadline =
-    deadline - now < 0 ? deadline + 1000 * 60 * 60 * 24 * 14 : deadline;
+    deadline - now < 0 ? deadline + 1000 * 60 * 60 * 24 * 90 : deadline;
   const distance = +deadline - +now; // Find the distance between now and deadline
 
   // Time calculations for days, hours, minutes and seconds
