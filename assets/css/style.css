@@ -53,7 +53,7 @@ header > h1 {
 .timer > div {
   margin: 0px 10px;
 }
-.timer > div > h3 {
+.timer > div > h2 {
   padding: 18px 0px;
   font-size: 70px;
   color: var(--soft-red);
@@ -66,7 +66,7 @@ header > h1 {
   display: flex;
   align-items: center;
 }
-.timer > div > h3::before {
+.timer > div > h2::before {
   content: "";
   background-color: var(--very-dark-blue);
   background-size: 10px;
@@ -78,7 +78,7 @@ header > h1 {
   border-radius: 100%;
   font-size: 7px;
 }
-.timer > div > h3::after {
+.timer > div > h2::after {
   content: "";
   background-color: var(--very-dark-blue);
   background-size: 10px;
@@ -124,7 +124,7 @@ footer {
     width: 90%;
   }
 
-  .timer > div > h3 {
+  .timer > div > h2 {
     padding: 15px 0px;
     font-size: 35px;
   }
@@ -145,7 +145,7 @@ footer {
   .container {
     width: 95%;
   }
-  .timer > div > h3 {
+  .timer > div > h2 {
     padding: 15px 0px;
     font-size: 20px;
   }
@@ -161,7 +161,7 @@ footer {
     bottom: 1vw;
   }
 
-  .timer > div > h3::before {
+  .timer > div > h2::before {
     content: "";
     background-color: var(--very-dark-blue);
     background-size: 10px;
@@ -173,7 +173,7 @@ footer {
     border-radius: 100%;
     font-size: 7px;
   }
-  .timer > div > h3::after {
+  .timer > div > h2::after {
     content: "";
     background-color: var(--very-dark-blue);
     background-size: 5px;
