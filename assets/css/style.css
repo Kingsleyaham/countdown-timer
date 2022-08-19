@@ -32,10 +32,10 @@ body {
   width: 80%;
   text-align: center;
 }
-.header {
+header {
   padding: 50px 0px;
 }
-.header > h2 {
+header > h1 {
   color: var(--white);
   text-transform: uppercase;
   letter-spacing: 5px;
