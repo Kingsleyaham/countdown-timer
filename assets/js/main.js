@@ -5,7 +5,7 @@ function countdownTimer() {
   const secondWrapper = document.getElementById("second");
 
   let now = new Date().getTime();
-  let deadline = new Date("Sep 02, 2022 00:00:00").getTime();
+  let deadline = new Date("Dec 25, 2024 00:00:00").getTime();
 
   //   reset time if count down to 0
   deadline =
